@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-finance"
+version = "2.0.0"
+description = "Crypto cycle research toolkit — power-law oscillator, regression rainbows, stock-to-flow, and efficient portfolios as causal, tested code"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Aman Thakkar" }]
+requires-python = ">=3.10"
+dependencies = ["pandas>=2", "numpy>=1.24", "requests>=2.31", "matplotlib>=3.6", "scipy>=1.10"]
+
+[project.scripts]
+crypto-finance = "crypto_finance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
