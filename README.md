@@ -1,5 +1,8 @@
 # crypto_finance
 
+[![CI](https://github.com/amanthakkar/crypto_finance/actions/workflows/ci.yml/badge.svg)](https://github.com/amanthakkar/crypto_finance/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 **Crypto cycle research, rebuilt as real software.** What started as five Jupyter notebooks (2021) is now a tested Python package with a CLI, a self-contained dashboard, and a live twin running in production.
 
 > **Live version:** [amanthakkar.com/power-law-oscillator-indicator](https://www.amanthakkar.com/power-law-oscillator-indicator/?source=github) — the indicator page on my site recomputes these models daily on my homelab and renders 11 views (power-law family, classic gauges, on-chain). This repo is the open-source engine underneath the original research; a fresh run today reproduces the live site's readings within ~1–2% from independent public data.
