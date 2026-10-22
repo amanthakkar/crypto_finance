@@ -98,6 +98,11 @@ def build_dashboard(frame: pd.DataFrame, latest: dict, signal: dict | None,
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>crypto_finance — Bitcoin cycle dashboard</title>
+<meta property="og:title" content="crypto_finance — Bitcoin cycle dashboard">
+<meta property="og:description" content="Quantitative crypto & portfolio research: efficient portfolios, log regression, stock-to-flow, power-law oscillators. Open recreation, causal and tested.">
+<meta property="og:image" content="https://amanthakkar.github.io/crypto_finance/social-preview.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <script src="{CDN}"></script>
 <style>
  body{{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0b1020;color:#e6e9f2}}
